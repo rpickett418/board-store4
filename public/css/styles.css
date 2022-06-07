@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    /* font-family: NeueHaasMd,HelveticaNeue-Medium,Helvetica Neue Medium,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif!important; */
+}
+a {
+    text-decoration: none;
+    font-family: NeueHaasMd,HelveticaNeue-Medium,Helvetica Neue Medium,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif!important;
+}
+:root{
+    --hearder-bg-color: #FFFF00;
+}
+
+header {
+display: inline-block;
+background-color: #FFFF00;
+width: 100%;
+font-size: 24px;
+padding: 20px;
+}
+header .logo {
+    display: inline-block;
+    font-size: 32px;
+    width: 30%;
+}
+header .logo a{
+    color:#161605;
+    margin-left: 300px;
+}
+
+header .logo h1 {
+    padding: 0 0 0 300px;
+}
+header .nav  {
+    display: inline-block;
+    width: 50%;
+    padding-left: 20px;
+}
+header .nav ul li {
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 0 50px 0 50px;
+    
+}
+header .nav ul li a{
+    display: inline-block;
+    color: #161605;
+}
+header .buy-container {
+    display: inline-block;
+    width: 10%;
+}
+header .buy-container .icons {
+    display: inline-block;
+    font-size: 20px;
+}
+header .buy-container .currensy{
+    display: inline-block;
+}
+
+.toparea {
+    background-size: cover;
+}
+
+.toparea video{
+    position: relative;
+}
+.spring-link {
+    position: absolute;
+    top: 500px;
+    left: 650px;
+    z-index: 5;
+    color:rgb(255, 255, 0);
+    font-size: 3.5rem;
+    text-decoration: none;
+    font-family: NeueHaasMd,HelveticaNeue-Medium,Helvetica Neue Medium,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif!important;
+    text-align: center;
+}
+
+.spring-link a {
+    border-radius: 1.7rem;
+    background-color: rgba(225, 225, 0, 0.25);
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding: 4px;
+    color:#161605;
+    transition: .5s ease-in-out;
+}
+.spring-link a:hover{
+    border-radius: 1.7rem;
+    background-color: rgb(255, 255, 0);
+    font-weight: 300;
+    padding: 4px;
+    color:#161605;
+}
+
+.item-container {
+    padding: 10px;
+    display: inline-block;
+  
+  
+   
+    /* flex-direction: column; */
+    flex-direction: row;
+    overflow-y: scroll;
+}
+   
+
+.slick-track .item-container  .item-img{
+    /* display: inline-block; */
+    height: 300px;
+    display:inline-block;
+    margin: 20px;
+    
+    align-content: center;
+    margin-left: 60px;
+}
+.slick-track .item-container  .item-img:hover {
+    /* display: inline-block; */
+    height: 2rem;
+    display:inline-block;
+    margin: 20px;
+    
+    align-content: center;
+    margin-left: 60px;
+    opacity: 10%;
+}
+
