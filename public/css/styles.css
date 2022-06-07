@@ -97,30 +97,38 @@ header .buy-container .currensy{
 .item-container {
     padding: 10px;
     display: inline-block;
-  
-  
-   
     /* flex-direction: column; */
     flex-direction: row;
     overflow-y: scroll;
 }
-   
 
-.slick-track .item-container  .item-img{
+.moves {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: NeueHaasMd,HelveticaNeue-Medium,Helvetica Neue Medium,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif!important;
+    font-size: 3rem;
+    background: #FAFAFA;
+}
+   
+.slick-track {
+    background: rgb(250, 250, 250, .3);
+}
+.slick-track .item-container  .item-img img{
     /* display: inline-block; */
-    height: 300px;
+    height: 350px;
     display:inline-block;
     margin: 20px;
-    
     align-content: center;
     margin-left: 60px;
+    
+
 }
-.slick-track .item-container  .item-img:hover {
+.slick-track .item-container  .item-img img:hover {
     /* display: inline-block; */
-    height: 2rem;
+    height: 350px;
     display:inline-block;
     margin: 20px;
-    
     align-content: center;
     margin-left: 60px;
     opacity: 10%;
