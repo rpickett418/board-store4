@@ -4,9 +4,9 @@ const path = require('path')
 
 const app = express()
 
-app.use('/public', serverStatic (path.join (__dirname, '/public')))
+app.use('/', serverStatic (path.join (__dirname, '/public')))
 
-app.get('/public', function(req, res) {
+app.get('/', function(req, res) {
     res.sendFile(__dirname + '/public/index.html')
 })
 const port = process.env.PORT || 5000
