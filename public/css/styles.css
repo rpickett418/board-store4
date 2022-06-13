@@ -134,3 +134,63 @@ header .buy-container .currensy{
     opacity: 10%;
 }
 
+/* Carousel */
+
+.carousel {
+    background: #FAFAFA;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.carousel img {
+    height: 100vh;
+    width: 50vw;
+}
+
+.carousel-item-title {
+    font-size: 6rem;
+    color: rgb(255, 255, 0);
+    font-family: NeueHaasMd,HelveticaNeue-Medium,Helvetica Neue Medium,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif!important;
+    padding-bottom: 15px;
+}
+
+
+/* Scroll  Products */
+
+.home-items {
+    background: #777;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5%;
+    background-image: url('https://i.gifer.com/81mz.gif');
+    background-size: cover;
+    opacity: 89%;
+  }
+  .home-items__products {
+    display: inline-block;
+  }
+  .home-items__products-img {
+    height: 43rem;
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 4%;
+  }
+  .home-items__products h1 {
+    font-size: 25px;
+    margin-left: 50px;
+    color: white;
+    
+  }
+  .home-items__products h3 {
+    font-size: 20px;
+    margin-left: 50px;
+    color: white;
+    margin-top: 10px;
+  }
+  .home-items__products h3:hover  {
+    font-size: 23px;
+    margin-left: 50px;
+    color: #FFFF00;
+    cursor: pointer;
+    
+  }
