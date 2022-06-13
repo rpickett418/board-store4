@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     /* font-family: NeueHaasMd,HelveticaNeue-Medium,Helvetica Neue Medium,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif!important; */
+    
 }
 a {
     text-decoration: none;
@@ -64,6 +65,7 @@ header .buy-container .currensy{
 
 .toparea video{
     position: relative;
+    background-image: url('https://i.gifer.com/1pX9.gif');
 }
 .spring-link {
     position: absolute;
